@@ -88,7 +88,7 @@
 <!-- Populasi -->
 <div class="container-xxl bg-light py-5 my-5" id="populasi">
     <div class="container py-5">
-        <div class="row g-5">
+        <div class="row g-5 text-center">
             <h1 class="display-6">Populasi TK Ilmu Al-Qur'an</h1>
             <div class="col-lg-6 col-md-6 text-center wow fadeIn" data-wow-delay="0.1s">
                 <img class="img-fluid mb-4" src="img/icon-9.png" alt="">
