@@ -13,11 +13,11 @@
             <a href="#tentangkami" class="nav-item nav-link">Tentang Kami</a>
         </div>
         <div class="h-100 d-lg-inline-flex align-items-center d-none">
-            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href="https://goo.gl/maps/Siev2YH7ng47q4S87"><i
                     class="fa fa-map-marker-alt"></i></a>
-            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href="tel:+6282244425792"><i
                     class="fa fa-phone-alt"></i></a>
-            <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i
+            <a class="btn btn-square rounded-circle bg-light text-primary me-0" href="mailto:tkilmualquran@gmail.com"><i
                     class="fa fa-envelope"></i></a>
         </div>
     </div>

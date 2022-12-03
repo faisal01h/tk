@@ -8,9 +8,9 @@
             </div>
             <div class="col-md-6">
                 <h5 class="mb-4 d-flex justify-content-end">Hubungi Kami</h5>
-                <p class="d-flex justify-content-end"><a href="" class="text-decoration-none">Jl. Bandeng No. 1 Sempusari Kec. Kaliwates Kab. Jember</a><i class="fa fa-map-marker-alt ms-3"></i></p>
-                <p class="d-flex justify-content-end"><a href="" class="text-decoration-none">082244425792</a><i class="fa fa-phone-alt ms-3"></i></p>
-                <p class="d-flex justify-content-end"><a href="" class="text-decoration-none">tkilmualquran@gmail.com</a><i class="fa fa-envelope ms-3"></i></p>
+                <p class="d-flex justify-content-end"><a href="https://goo.gl/maps/Siev2YH7ng47q4S87" class="text-decoration-none">Jl. Bandeng No. 1 Sempusari Kec. Kaliwates Kab. Jember</a><i class="fa fa-map-marker-alt ms-3"></i></p>
+                <p class="d-flex justify-content-end"><a href="tel:+6282244425792" class="text-decoration-none">082244425792</a><i class="fa fa-phone-alt ms-3"></i></p>
+                <p class="d-flex justify-content-end"><a href="mailto:tkilmualquran@gmail.com" class="text-decoration-none">tkilmualquran@gmail.com</a><i class="fa fa-envelope ms-3"></i></p>
             </div>
     <div class="container-fluid copyright">
         <div class="container">
