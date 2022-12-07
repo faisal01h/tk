@@ -28,7 +28,7 @@
         <div class="row g-5">
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="d-flex align-items-start">
-                    <img class="img-fluid flex-shrink-0" src="img/icon-7.png" alt="">
+                    <!-- <img class="img-fluid flex-shrink-0" src="img/icon-7.png" alt=""> -->
                     <div class="ps-4">
                         <h5 class="mb-3">Membiasakan Diri</h5>
                         <span>Menumbuhkan kebiasaan membaca Al Qur'an sejak dini serta mengamalkan dalam kegiatan sehari-hari.</span>
@@ -37,7 +37,7 @@
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="d-flex align-items-start">
-                    <img class="img-fluid flex-shrink-0" src="img/icon-6.png" alt="">
+                    <!-- <img class="img-fluid flex-shrink-0" src="img/icon-6.png" alt=""> -->
                     <div class="ps-4">
                         <h5 class="mb-3">Berakhlak Mulia</h5>
                         <span>Mewujudkan anak didik yang berakhlak mulia.</span>
@@ -46,7 +46,7 @@
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="d-flex align-items-start">
-                    <img class="img-fluid flex-shrink-0" src="img/icon-5.png" alt="">
+                    <!-- <img class="img-fluid flex-shrink-0" src="img/icon-5.png" alt=""> -->
                     <div class="ps-4">
                         <h5 class="mb-3">Pembinaan Rohani</h5>
                         <span>Membina siswa untuk menjadi mutiara-mutiara Al Qur'an melalui pembiasaan Hafalan Al Qur'an setiap hari.</span>
@@ -55,7 +55,7 @@
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="d-flex align-items-start">
-                    <img class="img-fluid flex-shrink-0" src="img/icon-4.png" alt="">
+                    <!-- <img class="img-fluid flex-shrink-0" src="img/icon-4.png" alt=""> -->
                     <div class="ps-4">
                         <h5 class="mb-3">Bimbingan Sosial</h5>
                         <span>Memberikan bimbingan Islam dalam bersikap,bersosial,dan berbuat baik dalam menjaga kelestarian lingkungan.</span>
@@ -64,7 +64,7 @@
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="d-flex align-items-start">
-                    <img class="img-fluid flex-shrink-0" src="img/icon-8.png" alt="">
+                    <!-- <img class="img-fluid flex-shrink-0" src="img/icon-8.png" alt=""> -->
                     <div class="ps-4">
                         <h5 class="mb-3">&nbsp;</h5>
                         <span>&nbsp;</span>
@@ -73,7 +73,7 @@
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="d-flex align-items-start">
-                    <img class="img-fluid flex-shrink-0" src="img/icon-3.png" alt="">
+                    <!-- <img class="img-fluid flex-shrink-0" src="img/icon-3.png" alt=""> -->
                     <div class="ps-4">
                         <h5 class="mb-3">Kasih Sayang & Moral</h5>
                         <span>Memberikan pendidikan dengan penuh kasih sayang dan menanamkan etika moral dan intelektual sejak dini.</span>
@@ -91,13 +91,13 @@
         <div class="row g-5 text-center">
             <h1 class="display-6">Populasi TK Ilmu Al-Qur'an</h1>
             <div class="col-lg-6 col-md-6 text-center wow fadeIn" data-wow-delay="0.1s">
-                <img class="img-fluid mb-4" src="img/icon-9.png" alt="">
+                <!-- <img class="img-fluid mb-4" src="img/icon-9.png" alt=""> -->
                 <h1 class="display-4" data-toggle="counter-up">6</h1>
                 <p class="fs-5 text-primary mb-0">Tenaga Pengajar Profesional</p>
             </div>
             <div class="col-lg-6 col-md-6 text-center wow fadeIn" data-wow-delay="0.3s">
-                <img class="img-fluid mb-4" src="img/icon-10.png" alt="">
-                <h1 class="display-4" data-toggle="counter-up">96</h1>
+                <!-- <img class="img-fluid mb-4" src="img/icon-10.png" alt=""> -->
+                <h1 class="display-4" data-toggle="counter-up">105</h1>
                 <p class="fs-5 text-primary mb-0">Siswa Dalam Bimbingan</p>
             </div>
         </div>
@@ -151,7 +151,7 @@
                                     1.	Menggambar Dan Mewarnai <br/>
                                     2.	Menyanyi <br/>
                                     3.	Menari <br/>
-                                    4.	Pengenalan Bahasa Inggris <br/> 
+                                    4.	Pengenalan Bahasa Inggris <br/>
                                     5.	Pengenalan Bahasa Arab
                                 </P>
                             </div>
@@ -171,7 +171,7 @@
                                     1.	Karya Wisata <br />
                                     2.	Out Bond <br />
                                     3.	Kunjungan Ke Instansi Dan Ke Tempat Umum <br />
-                                    4.	Demonstrasi 
+                                    4.	Demonstrasi
                                 </P>
                             </div>
                         </div>
@@ -179,6 +179,16 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="container-xxl">
+    <div class="owl-carousel owl-theme">
+    @foreach ($images as $image)
+        <div>
+            <img src="{{ $image }}" alt="" height="500px">
+        </div>
+    @endforeach
     </div>
 </div>
 

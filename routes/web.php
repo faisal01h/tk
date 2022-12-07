@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    $images = [];
+    for($i = 1; $i <= 19; ++$i) {
+        $images[$i] = "/img/galeri/img".$i.".jpg";
+    }
+    return view('index', ['images' => $images]);
 });
